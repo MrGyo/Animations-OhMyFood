@@ -1,0 +1,1536 @@
+/* ---------- ALL PAGES ---------- */
+
+body {
+    margin: 0;
+}
+
+/* Header */
+
+header {
+    background-color: #579c87;
+    text-align: center;
+}
+
+header > img {
+    width: auto;
+    height: 100px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+header > a > img {
+    width: auto;
+    height: 100px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+#help_footer {
+    height: 90px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #579c87;
+    display: flex;
+    justify-content: space-between;
+    color: #fdcb46;
+    font-weight: bold;
+    font-size: 1.7em;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+#legal_notice {
+    margin-left: 1%;
+}
+
+#legal_notice > a {
+    color: #fdcb46;
+}
+
+#legal_notice:hover{ 
+  animation: wiggle 200ms infinite;
+  animation-timing-function: linear;   
+}
+
+#contact {
+    margin-right: 1%;
+}
+
+#contact > a {
+    color: #fdcb46;
+}
+
+#contact:hover{ 
+  animation: wiggle 200ms infinite;
+  animation-timing-function: linear;   
+}
+
+#return {
+    margin-left: 1%;
+}
+
+#return > a {
+    color: #fdcb46;
+}
+
+#return:hover{ 
+  animation: wiggle 200ms infinite;
+  animation-timing-function: linear;   
+}
+
+/* Others */
+
+a {
+  text-decoration: none;
+}
+
+/* ---------- HOME PAGE ---------- */
+
+/* Paramètres s'appliquant à l'ensemble de la page d'accueil */
+
+#list_1_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5%;
+}
+
+#list_2_menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.link_menu {
+    margin: 2%;
+}
+
+/* Paramètres s'appliquant à l'ensemble de la page d'accueil */
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-top: 2.5%;
+    width: 315px;
+    height: 450px;
+    font-size: 1.8em;
+    font-weight: bold;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.menu_effects:hover {
+    opacity: 0.7;
+    transition: all 0.5s ease-out;
+	-webkit-transition: all 0.5s ease-out;
+    -moz-transition: all 0.5s ease-out;
+    -ms-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+}
+
+.menu_effects > div {
+    transition-property: transform;
+	-webkit-transition-property: transform;
+    -moz-transition-property: transform;
+    -ms-transition-property: transform;
+    -o-transition-property: transform;
+    transition-duration: 0.5s;
+	transition-timing-function: ease-out;
+}
+
+.menu_effects:hover > div {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+/* Premier menu - La note enchantée */
+
+#note_logo {
+    text-align: center;
+    margin-bottom: 0;
+}
+
+#menu_1 {
+    background-color: #fcdfdb;
+    font-weight: bold;
+    color: #3c1218;
+}
+
+#menu_1 > #menu_r1 {
+    margin-top: 5%;
+    font-size: 1.5em;
+    font-family: 'Kalam', sans-serif;
+    text-transform: uppercase;
+}
+
+#restaurant_1 {
+    margin-top: -3%;
+    font-size: 1.1em;
+    font-weight: normal;
+    font-family: 'Devonshire', cursive;
+}
+
+/* Deuxième menu - Le chic à la française */
+
+#menu_2 {
+    background-color: #fff5fe;
+    font-family: 'Croissant One', sans-serif;
+}
+
+#menu_2 > #menu_r2 {
+    color: #c77412;
+    margin-top: 2%;
+    font-size: 1.5em;
+}
+
+#restaurant_2 {
+    font-size: 0.8em;
+    background: linear-gradient(to right, #c77412, #905bfd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* à confirmer */
+}
+
+/* Troisième menu - Le délice des papilles */
+
+#menu_3 {
+    background-color: #ffffff;
+}
+
+#menu_3 > #menu_r3 {
+    margin-top: 2%;
+    font-family: 'Kalam', sans-serif;
+    font-size: 1.5em;
+    color: #0887fb;
+}
+
+#restaurant_3 {
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Alex Brush', sans-serif;
+    background: linear-gradient(to right, #0431df, #1b91fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* à confirmer */
+}
+
+/* Quatrième menu - La palette du goût */
+
+#menu_4 {
+    background-color: #ffffff;
+}
+
+#menu_4 > #menu_r4 {
+    margin-top: 2%;
+    font-family: 'Kalam', sans-serif;
+    font-size: 1.5em;
+    color: #72bf56;
+}
+
+#restaurant_4 {
+    font-size: 1.2em;
+    font-family: 'Kaushan Script', sans-serif;
+    background: linear-gradient(to right, #3d9339, #bfff7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* à confirmer */
+}
+
+/* Section prochainement */
+
+#coming_soon > p {
+    text-align: center;
+    margin-bottom: 2.5%;
+    margin-top: 2.5%;
+}
+
+#coming_content {
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 6%;
+    padding-right: 6%;
+    background-color: #579c87;
+    border-radius: 8px;
+    color: #fdcb46;
+    font-weight: bold;
+    font-size: 2.1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.dot1 {
+ animation: visibility 3s linear infinite;
+}
+
+.dot2 {
+ animation: visibility2 3s linear infinite;
+}
+
+.dot3 {
+ animation: visibility3 3s linear infinite;
+}
+
+/* ---------- PAGES MENU 1, 2, 3 et 4 ---------- */
+
+/* Paramètres s'appliquant aux pages des menus 1, 2, 3 et 4 */
+
+.menu_head {
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 1.8em;
+    margin-top: 3%;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_sections {
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+/* ---------- PAGE MENU 1 ---------- */
+
+/* Paramètres s'appliquant à la page du menu 1 */
+
+#menu_content_1 {
+    background-color: #fcdfdb;
+    padding-top: 3%;
+    width: 800px;
+    padding-bottom: 3%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#note_logo_2 {
+    text-align: center;
+}
+
+#note_logo_2 > img {
+    width: auto;
+    height: 100%;
+}
+
+#restaurant_name_1_1 {
+    text-align: center;
+    font-family: 'Devonshire', cursive;
+    font-weight: normal;
+    font-size: 3em;
+    color: #42171d;
+}
+
+.meal_1_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 95px;
+    padding-right: 95px;
+}
+
+.color_line_1 {
+    width: 200px;
+}
+
+.meal_cat_1 {
+    font-size: 1.1em;
+    margin: 2%;
+}
+
+.meal_cat_1 > a {
+    text-align: center;
+    font-family: 'Kalam', sans-serif;
+    text-decoration: none;
+    color: #42171d;
+}
+
+.left_1 {
+    position: relative;
+}
+
+.left_1:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    right: 0;
+    background: #42171d;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -ms-transition: width .5s ease;
+    -o-transition: width .5s ease;
+}
+ 
+.left_1:hover:after{
+    width: 100%;
+    left: 0;
+    background: #42171d;
+}
+
+.menu_lines_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Kalam', sans-serif;
+}
+
+.menu_lines_1 > p {
+    color: #42171d;
+    font-size: 1em;
+    margin-top: 0;
+}
+
+.meal_1 {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 10px;
+}
+
+.meal_1_2 {
+    text-align: left;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.price_1 {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 100px;
+    padding-left: 10px;
+}
+
+#bottom_menu_1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#restaurant_name_1_2 {
+    font-family: 'Devonshire', cursive;
+    font-size: 2.5em;
+    color: #42171d;
+}
+
+/* ---------- PAGES MENU 2, 3 et 4 ---------- */
+
+/* Paramètres s'appliquant aux pages des menus 2, 3 et 4 */
+
+.meal_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/* ---------- PAGE MENU 2 ---------- */
+
+/* Paramètres s'appliquant à la page du menu 2 */
+
+#menu_content_2 {
+    background-color: #fff5fe;
+    padding-top: 5%;
+    width: 800px;
+    padding-bottom: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+#restaurant_name_2 {
+    text-align: center;
+    font-family: 'Croissant One', sans-serif;
+    font-size: 2.5em;
+    background: linear-gradient(to right, #c77412, #905bfd);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* à confirmer */
+}
+
+.meal_2 {
+    text-align: left;
+    padding-left: 135px;
+    padding-right: 10px;
+}
+
+.price_2 {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 135px;
+    padding-left: 10px;
+}
+
+.meal_2_2 {
+    text-align: left;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.color_line_2 {
+    width: 220px;
+}
+
+/* Paramètres s'appliquant à la page du menu 2 : entrées */
+
+.meal_cat_2_a {
+    font-size: 1.1em;
+    margin: 5%;
+}
+
+.meal_cat_2_a > a {
+    text-align: center;
+    font-family: arial;
+    text-decoration: none;
+    color: #c67412;
+}
+
+.left_2_a {
+    position: relative;
+}
+
+.left_2_a:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    right: 0;
+    background: #c67412;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -ms-transition: width .5s ease;
+    -o-transition: width .5s ease;
+}
+ 
+.left_2_a:hover:after{
+    width: 100%;
+    left: 0;
+    background: #c67412;
+}
+
+.menu_lines_2_a {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: arial;
+}
+
+.menu_lines_2_a > p {
+    color: #c67412;
+    font-size: 1em;
+    margin-top: 1%;
+}
+
+/* Paramètres s'appliquant à la page du menu 2 : plats */
+
+.meal_cat_2_b {
+    font-size: 1.1em;
+    margin: 5%;
+}
+
+.meal_cat_2_b > a {
+    text-align: center;
+    font-family: arial;
+    text-decoration: none;
+    color: #a56799;
+}
+
+.left_2_b {
+    position: relative;
+}
+
+.left_2_b:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    right: 0;
+    background: #a56799;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -ms-transition: width .5s ease;
+    -o-transition: width .5s ease;
+}
+ 
+.left_2_b:hover:after{
+    width: 100%;
+    left: 0;
+    background: #a56799;
+}
+
+.menu_lines_2_b {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: arial;
+}
+
+.menu_lines_2_b > p {
+    color: #a56799;
+    font-size: 1em;
+    margin-top: 1%;
+}
+
+/* Paramètres s'appliquant à la page du menu 2 : desserts */
+
+.meal_cat_2_c {
+    font-size: 1.1em;
+    margin: 5%;
+}
+
+.meal_cat_2_c > a {
+    text-align: center;
+    font-family: arial;
+    text-decoration: none;
+    color: #6e4ccc;
+}
+
+.left_2_c {
+    position: relative;
+}
+
+.left_2_c:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    right: 0;
+    background: #6e4ccc;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -ms-transition: width .5s ease;
+    -o-transition: width .5s ease;
+}
+ 
+.left_2_c:hover:after{
+    width: 100%;
+    left: 0;
+    background: #6e4ccc;
+}
+
+.menu_lines_2_c {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: arial;
+}
+
+.menu_lines_2_c > p {
+    color: #6e4ccc;
+    font-size: 1em;
+    margin-top: 1%;
+}
+
+/* ---------- PAGE MENU 3 ---------- */
+
+/* Paramètres s'appliquant à la page du menu 3 */
+
+#restaurant_name_3 {
+    text-align: center;
+    font-size: 4.5em;
+    font-family: 'Alex Brush', sans-serif;
+    background: linear-gradient(to right, #0431df, #1b91fa);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* à confirmer */
+}
+
+#menu_content_3 {
+    background-color: #edefef;
+    padding-top: 5%;
+    width: 800px;
+    padding-bottom: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.meal_cat_3 {
+    font-size: 1.2em;
+    margin: 5%;
+}
+
+.meal_cat_3 > a {
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}
+
+.menu_lines_3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.menu_lines_3 > p {
+    color: black;
+    font-size: 1.1em;
+    margin-top: 1%;
+}
+
+.meal_3 {
+    text-align: left;
+    padding-left: 135px;
+    padding-right: 10px;
+}
+
+.price_3 {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 135px;
+    padding-left: 10px;
+}
+
+.meal_3_2 {
+    text-align: left;
+    padding-left: 135px;
+    padding-right: 135px;
+}
+
+.color_line_3 {
+    width: 245px;
+}
+
+/* Paramètres s'appliquant à la page du menu 3 : entrées */
+
+.left_3_a {
+    position: relative;
+}
+
+.left_3_a:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    right: 0;
+    background: #0228dd;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -ms-transition: width .5s ease;
+    -o-transition: width .5s ease;
+}
+ 
+.left_3_a:hover:after{
+    width: 100%;
+    left: 0;
+    background: #0228dd;
+}
+
+/* Paramètres s'appliquant à la page du menu 3 : plats */
+
+.left_3_b {
+    position: relative;
+}
+
+.left_3_b:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    right: 0;
+    background: #0670f3;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -ms-transition: width .5s ease;
+    -o-transition: width .5s ease;
+}
+ 
+.left_3_b:hover:after{
+    width: 100%;
+    left: 0;
+    background: #0670f3;
+}
+
+/* Paramètres s'appliquant à la page du menu 3 : desserts */
+
+.left_3_c {
+    position: relative;
+}
+
+.left_3_c:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    right: 0;
+    background: #229df9;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -ms-transition: width .5s ease;
+    -o-transition: width .5s ease;
+}
+ 
+.left_3_c:hover:after{
+    width: 100%;
+    left: 0;
+    background: #229df9;
+}
+
+/* ---------- PAGE MENU 4 ---------- */
+
+/* Paramètres s'appliquant à la page du menu 4 */
+
+#restaurant_name_4 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Kaushan Script', sans-serif;
+    background: linear-gradient(to right, #3d9339, #bfff7e);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; /* à confirmer */
+}
+
+#menu_content_4 {
+    background-color: #edefef;
+    padding-top: 5%;
+    width: 800px;
+    padding-bottom: 5%;
+    margin-top: 1%;
+    margin-bottom: 5%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.meal_cat_4 {
+    font-size: 1.2em;
+    margin: 5%;
+}
+
+.color_line_4 {
+    width: 245px;
+}
+
+.left_4 {
+    position: relative;
+}
+
+.left_4:after{
+    content: '';
+    position: absolute;
+    width: 0; height: 3px;
+    display: block;
+    right: 0;
+    background: #9ce26d;
+    transition: width .5s ease;
+    -webkit-transition: width .5s ease;
+    -moz-transition: width .5s ease;
+    -ms-transition: width .5s ease;
+    -o-transition: width .5s ease;
+}
+ 
+.left_4:hover:after{
+    width: 100%;
+    left: 0;
+    background: #9ce26d;
+}
+
+.meal_cat_4 > a {
+    text-align: center;
+    font-family: 'Shadows Into Light Two', cursive;
+    text-decoration: none;
+    font-weight: normal;
+    color: black;
+}
+
+.menu_lines_4 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+
+.menu_lines_4 > p {
+    color: black;
+    font-size: 1.1em;
+    margin-top: 1%;
+}
+
+.meal_4 {
+    text-align: left;
+    padding-left: 135px;
+    padding-right: 10px;
+}
+
+.price_4 {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 135px;
+    padding-left: 10px;
+}
+
+/* ---------- PAGE LEGAL ---------- */
+
+/* Paramètres s'appliquant à la page mentions légales */
+
+#legal {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+
+/* Règles Media queries smartphone, tablette et desktop */
+
+@media (max-width: 575.98px) { 
+    
+    header > img {
+        width: auto;
+        height: 65px;
+    }
+    
+    header > a >img {
+        width: auto;
+        height: 65px;
+    }
+    
+    /* Règles Media queries Home */
+    
+    footer {
+        font-size: 1.1em;
+    }
+    
+    #help_footer {
+        height: 60px;
+    }
+
+    #coming_content {
+        font-size: 1.3em;
+    }
+    
+    /* Règles Media queries Menu 1 2, 3, 4 */
+    
+    .menu_head {
+        font-size: 1.4em;
+        margin-top: 8%;
+    }
+    
+    .meal_title {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center; /* new */
+        font-size: 1.2em; /* new */
+    }
+    
+    /* Règles Media queries Menu 1 */
+    
+    #note_logo_2 > img {
+        width: 50px;
+        height: 100%;
+    }
+    
+    #restaurant_name_1_1 {
+        font-size: 2.2em;
+        margin-top: 2%;
+    }
+    
+    #menu_content_1 {
+        width: 340px;
+        padding-top: 5%;
+        margin-bottom: 10%;
+    }
+    
+    .meal_cat_1 {
+        font-size: 0.8em;
+    }
+
+    .menu_lines_1 > p {
+        font-size: 0.9em; /* new */
+    }
+    
+    .meal_1 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .meal_1_2 {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .price_1 {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    
+    .meal_1_title {
+        padding-left: 5px;
+        padding-right: 5px;
+        text-align: center; /* new */
+        font-size: 1.2em; /* new */
+    }
+
+    .color_line_1 {
+        width: 110px;
+    }
+    
+    #note_logo_1 > img {
+        width: 50px;
+        height: 35px;
+    }
+    
+    #restaurant_name_1_2 {
+        font-size: 1.8em;
+    }
+    
+    /* Règles Media queries Menu 2 */
+    
+    #restaurant_name_2 {
+        font-size: 1.3em;
+    }
+    
+    #menu_content_2 {
+        width: 340px;
+        margin-bottom: 10%;
+    }
+    
+    .meal_cat_2_a {
+        font-size: 0.8em;
+    }
+    
+    .meal_cat_2_b {
+        font-size: 0.8em;
+    }
+    
+    .meal_cat_2_c {
+        font-size: 0.8em;
+    }
+
+    .menu_lines_2_a > p {
+        font-size: 0.9em;
+    }
+    
+    .menu_lines_2_b > p {
+        font-size: 0.9em;
+    }
+    
+    .menu_lines_2_c > p {
+        font-size: 0.9em;
+    }
+
+    .meal_2 {
+        padding-left: 35px;
+        padding-right: 10px;
+    }
+
+    .price_2 {
+        padding-right: 35px;
+        padding-left: 10px;
+    }
+    
+    .meal_2_2 {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    
+    .color_line_2 {
+        width: 70px;
+    }
+    
+    /* Règles Media queries Menu 3 */
+     
+    #restaurant_name_3 {
+        font-size: 2.9em;
+    }
+
+    #menu_content_3 {
+        width: 340px;
+        margin-bottom: 10%;
+    }
+    
+    .meal_cat_3 {
+        font-size: 0.9em;
+    }
+    
+    .menu_lines_3 > p {
+        font-size: 0.9em;
+    }
+
+    .color_line_3 {
+        width: 85px;
+    }
+
+    .meal_3 {
+        text-align: left;
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+    
+    .price_3 {
+        padding-right: 40px;
+        padding-left: 10px;
+    }
+
+    .meal_3_2 {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    
+    /* Règles Media queries Menu 3 */
+     
+    #restaurant_name_4 {
+        font-size: 2.1em;
+    }
+
+    #menu_content_4 {
+        width: 340px;
+        margin-bottom: 10%;
+    }
+    
+    .meal_cat_4 {
+        font-size: 0.9em;
+    }
+    
+    .menu_lines_4 > p {
+        font-size: 0.9em;
+    }
+
+    .color_line_4 {
+        width: 95px;
+    }
+
+    .meal_4 {
+        text-align: left;
+        padding-left: 40px;
+        padding-right: 10px;
+    }
+    
+    .price_4 {
+        padding-right: 40px;
+        padding-left: 10px;
+    }
+    
+    /* Paramètres s'appliquant à la page mentions légales */
+
+    #legal {
+        margin-left: 5%;
+        margin-right: 5%;
+        font-family: 'Montserrat', sans-serif;
+        text-align: left;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    
+    /* Règles Media queries Home */
+    
+    #list_1_menu {
+        margin-top: 5%;
+    }
+    
+    #help_footer {
+        height: 90px;
+    }
+    
+    #coming_content {
+        font-size: 1.8em;
+    }
+    
+    /* Règles Media queries Menu 2, 3, 4 */
+    
+    .meal_title {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    /* Règles Media queries Menu 1 */
+    
+    #note_logo_2 > img {
+        width: 75px;
+        height: 100%;
+    }
+    
+    #restaurant_name_1_1 {
+        font-size: 2.5em;
+        margin-top: 2%;
+    }
+    
+    #menu_content_1 {
+        padding-top: 5%;
+        width: 570px;
+    }
+    
+    .meal_cat_1 {
+        font-size: 0.9em;
+    }
+    
+    .menu_lines_1 > p {
+        font-size: 0.9em;
+    }
+    
+    .meal_1 {
+        padding-left: 50px;
+        padding-right: 10px;
+    }
+
+    .meal_1_2 {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .price_1 {
+        padding-right: 50px;
+        padding-left: 10px;
+    }
+    
+    .meal_1_title {
+        padding-left: 45px;
+        padding-right: 45px;
+    }
+
+    .color_line_1 {
+        width: 150px;
+    }
+    
+    #note_logo_1 > img {
+        width: 60px;
+        height: 45px;
+    }
+    
+    #restaurant_name_1_2 {
+        font-size: 2.2em;
+    }
+    
+     /* Règles Media queries Menu 2 */
+    
+    #restaurant_name_2 {
+        font-size: 1.7em;
+    }
+   
+    #menu_content_2 {
+        width: 570px;
+    }
+    
+    .meal_cat_2_a {
+        font-size: 0.9em;
+    }
+    
+    .meal_cat_2_b {
+        font-size: 0.9em;
+    }
+    
+    .meal_cat_2_c {
+        font-size: 0.9em;
+    }
+    
+    .menu_lines_2_a > p {
+        font-size: 0.9em;
+    }
+    
+    .menu_lines_2_b > p {
+        font-size: 0.9em;
+    }
+    
+    .menu_lines_2_c > p {
+        font-size: 0.9em;
+    }
+
+    .meal_2 {
+        padding-left: 105px;
+        padding-right: 10px;
+    }
+
+    .price_2 {
+        padding-right: 105px;
+        padding-left: 10px;
+    }
+    
+    .meal_2_2 {
+        padding-left: 105px;
+        padding-right: 105px;
+    }
+    
+    .color_line_2 {
+        width: 150px;
+    }
+
+    /* Règles Media queries Menu 3 */
+     
+    #restaurant_name_3 {
+        font-size: 3.7em;
+    }
+
+    #menu_content_3 {
+        width: 570px;
+    }
+    
+    .meal_cat_3 {
+        font-size: 1em;
+    }
+    
+    .menu_lines_3 > p {
+        font-size: 0.9em;
+    }
+
+    .color_line_3 {
+        width: 175px;
+    }
+
+    .meal_3 {
+        text-align: left;
+        padding-left: 80px;
+        padding-right: 10px;
+    }
+    
+    .price_3 {
+        padding-right: 80px;
+        padding-left: 10px;
+    }
+
+    .meal_3_2 {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+    
+    /* Règles Media queries Menu 4 */
+     
+    #restaurant_name_4 {
+        font-size: 2.2em;
+    }
+
+    #menu_content_4 {
+        width: 570px;
+    }
+    
+    .meal_cat_4 {
+        font-size: 1em;
+    }
+    
+    .menu_lines_4 > p {
+        font-size: 0.9em;
+    }
+
+    .color_line_4 {
+        width: 175px;
+    }
+    
+    .meal_4 {
+        text-align: left;
+        padding-left: 80px;
+        padding-right: 10px;
+    }
+    
+    .price_4 {
+        padding-right: 80px;
+        padding-left: 10px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    
+    /* Règles Media queries Home */
+    
+    #list_1_menu {
+        margin-top: 5%;
+    }
+    
+    #help_footer {
+        height: 90px;
+    }
+    
+    /* Règles Media queries Menu 2, 3, 4 */
+    
+    .meal_title {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    /* Règles Media queries Menu 1 */
+    
+    #menu_content_1 {
+        width: 750px;
+    }
+    
+    .meal_cat_1 {
+        font-size: 1em;
+    }
+    
+    .menu_lines_1 > p {
+        font-size: 0.9em;
+    }
+    
+    .meal_1_title {
+        padding-left: 95px;
+        padding-right: 95px;
+    }
+
+    .color_line_1 {
+        width: 187px;
+    }
+    
+     /* Règles Media queries Menu 2 */
+    
+    #restaurant_name_2 {
+        font-size: 2.2em;
+    }
+    
+    #menu_content_2 {
+        width: 750px;
+    }
+    
+    .meal_cat_2_a {
+        font-size: 1em;
+    }
+    
+    .meal_cat_2_b {
+        font-size: 1em;
+    }
+    
+    .meal_cat_2_c {
+        font-size: 1em;
+    }
+    
+    .menu_lines_2_a > p {
+        font-size: 0.9em;
+    }
+    
+    .menu_lines_2_b > p {
+        font-size: 0.9em;
+    }
+    
+    .menu_lines_2_c > p {
+        font-size: 0.9em;
+    }
+
+    .color_line_2 {
+        width: 215px;
+    }
+
+    /* Règles Media queries Menu 3 */
+     
+    #restaurant_name_3 {
+        font-size: 4.2em;
+    }
+
+    #menu_content_3 {
+        width: 750px;
+    }
+    
+    .meal_cat_3 {
+        font-size: 1.1em;
+    }
+    
+    .menu_lines_3 > p {
+        font-size: 1em;
+    }
+
+    .color_line_3 {
+        width: 240px;
+    }
+
+    /* Règles Media queries Menu 4 */
+     
+    #restaurant_name_4 {
+        font-size: 2.7em;
+    }
+
+    #menu_content_4 {
+        width: 750px;
+    }
+    
+    .meal_cat_4 {
+        font-size: 1.1em;
+    }
+    
+    .menu_lines_4 > p {
+        font-size: 1em;
+    }
+
+    .color_line_4 {
+        width: 240px;
+    }
+  
+} 
+
+/* ---------- ANIMATION ---------- */
+
+/* Animations pour l'ensemble du site */
+
+/* ==> Effet wiggle sur les éléments du footer <== */
+
+@keyframes wiggle {
+  0% { transform: translate(2px, 0); }
+  50% { transform: translate(-2px, 0); }
+  100% { transform: translate(2px, 0); }
+}
+
+/* ==> Points de suspension "Prochainement..." <== */
+
+@keyframes visibility {
+ 0% {
+ opacity: 1;
+ }
+ 65% {
+ opacity: 1;
+ }
+ 66% {
+ opacity: 0;
+ }
+ 100% {
+ opacity: 0;
+ }
+}
+
+@keyframes visibility2 {
+ 0% {
+  opacity: 0;
+ }
+ 21% {
+  opacity: 0;
+ }
+ 22% {
+  opacity: 1;
+ }
+ 65% {
+  opacity: 1;
+ }
+ 66% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 0;
+ }
+}
+
+@keyframes visibility3 {
+ 0% {
+  opacity: 0;
+ }
+ 43% {
+  opacity: 0;
+ }
+ 44% {
+  opacity: 1;
+ }
+ 65% {
+  opacity: 1;
+ }
+ 66% {
+  opacity: 0;
+ }
+ 100% {
+  opacity: 0;
+ }
+}
