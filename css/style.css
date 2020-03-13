@@ -113,8 +113,6 @@ a {
     margin: 2%;
 }
 
-/* Paramètres s'appliquant à l'ensemble de la page d'accueil */
-
 .menu {
     display: flex;
     flex-direction: column;
