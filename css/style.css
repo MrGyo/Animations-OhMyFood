@@ -197,7 +197,7 @@ a {
     font-size: 0.8em;
     background: linear-gradient(to right, #c77412, #905bfd);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* à confirmer */
+    -webkit-text-fill-color: transparent; /
 }
 
 /* Menu - Le délice des papilles */
@@ -219,7 +219,7 @@ a {
     font-family: 'Alex Brush', sans-serif;
     background: linear-gradient(to right, #0431df, #1b91fa);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* à confirmer */
+    -webkit-text-fill-color: transparent;
 }
 
 /* Menu - La palette du goût */
@@ -240,7 +240,7 @@ a {
     font-family: 'Kaushan Script', sans-serif;
     background: linear-gradient(to right, #3d9339, #bfff7e);
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; /* à confirmer */
+    -webkit-text-fill-color: transparent;
 }
 
 /* Boutton "prochainement" */
@@ -507,7 +507,7 @@ a {
     display: block;
     right: 0;
     background: #c67412;
-    transition: width .5s ease;
+    transition: width 0.5s ease;
     -webkit-transition: width .5s ease;
     -moz-transition: width .5s ease;
     -ms-transition: width .5s ease;
