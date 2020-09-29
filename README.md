@@ -22,4 +22,7 @@ Liens vers la maquette et le brief créatif : [ICI](https://github.com/MrGyo/p3/
 * Assurer la cohérence graphique d'un site web
 * Mettre en place une structure de navigation pour un site web
 
-La version finale du site est disponible [ICI](https://mrgyo.github.io/p3/)
+## Résultats 
+
+* [Version finale du site](https://mrgyo.github.io/p3/)
+* [Document de présentation](https://github.com/MrGyo/p3/blob/master/soutenance/SOUTENANCE_P3_WEBDEV_20200308.pptx)
