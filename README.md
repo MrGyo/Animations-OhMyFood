@@ -22,5 +22,5 @@ Liens vers la maquette et le brief créatif : [ICI](https://github.com/MrGyo/p3/
 
 ## Résultats 
 
-* [Version finale du site](https://mrgyo.github.io/p3/)
+* [Version finale du site](https://mrgyo.github.io/OhMyFood/)
 * [Document de présentation](https://github.com/MrGyo/p3/blob/master/soutenance/SOUTENANCE_P3_WEBDEV_20200308.pptx)
